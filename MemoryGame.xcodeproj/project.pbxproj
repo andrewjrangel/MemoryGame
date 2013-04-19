@@ -16,6 +16,11 @@
 		887CDED2171F709A006D9559 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 887CDED1171F709A006D9559 /* Default.png */; };
 		887CDED4171F709A006D9559 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 887CDED3171F709A006D9559 /* Default@2x.png */; };
 		887CDED6171F709A006D9559 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 887CDED5171F709A006D9559 /* Default-568h@2x.png */; };
+		887CDEDF171F70CF006D9559 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887CDEDD171F70CF006D9559 /* MainViewController.m */; };
+		887CDEE0171F70CF006D9559 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887CDEDE171F70CF006D9559 /* MainViewController.xib */; };
+		887CDEE3171F728A006D9559 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 887CDEE2171F728A006D9559 /* GameModel.m */; };
+		887CDEE6171F73AF006D9559 /* cardBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 887CDEE5171F73AF006D9559 /* cardBack.png */; };
+		887CDEE9171F7688006D9559 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 887CDEE8171F7688006D9559 /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,13 @@
 		887CDED1171F709A006D9559 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		887CDED3171F709A006D9559 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		887CDED5171F709A006D9559 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		887CDEDC171F70CF006D9559 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		887CDEDD171F70CF006D9559 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		887CDEDE171F70CF006D9559 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		887CDEE1171F728A006D9559 /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		887CDEE2171F728A006D9559 /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+		887CDEE5171F73AF006D9559 /* cardBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cardBack.png; path = ../../../../Desktop/cardBack.png; sourceTree = "<group>"; };
+		887CDEE8171F7688006D9559 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../../../Desktop/background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +63,12 @@
 		887CDEB3171F709A006D9559 = {
 			isa = PBXGroup;
 			children = (
+				887CDEE7171F73B6006D9559 /* Media */,
+				887CDEE4171F7293006D9559 /* Model */,
 				887CDEC5171F709A006D9559 /* MemoryGame */,
+				887CDEDC171F70CF006D9559 /* MainViewController.h */,
+				887CDEDD171F70CF006D9559 /* MainViewController.m */,
+				887CDEDE171F70CF006D9559 /* MainViewController.xib */,
 				887CDEBE171F709A006D9559 /* Frameworks */,
 				887CDEBD171F709A006D9559 /* Products */,
 			);
@@ -97,6 +114,24 @@
 				887CDED5171F709A006D9559 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		887CDEE4171F7293006D9559 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				887CDEE1171F728A006D9559 /* GameModel.h */,
+				887CDEE2171F728A006D9559 /* GameModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		887CDEE7171F73B6006D9559 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				887CDEE8171F7688006D9559 /* background.png */,
+				887CDEE5171F73AF006D9559 /* cardBack.png */,
+			);
+			name = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +189,9 @@
 				887CDED2171F709A006D9559 /* Default.png in Resources */,
 				887CDED4171F709A006D9559 /* Default@2x.png in Resources */,
 				887CDED6171F709A006D9559 /* Default-568h@2x.png in Resources */,
+				887CDEE0171F70CF006D9559 /* MainViewController.xib in Resources */,
+				887CDEE6171F73AF006D9559 /* cardBack.png in Resources */,
+				887CDEE9171F7688006D9559 /* background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +204,8 @@
 			files = (
 				887CDECC171F709A006D9559 /* main.m in Sources */,
 				887CDED0171F709A006D9559 /* AppDelegate.m in Sources */,
+				887CDEDF171F70CF006D9559 /* MainViewController.m in Sources */,
+				887CDEE3171F728A006D9559 /* GameModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
